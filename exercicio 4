@@ -1,0 +1,26 @@
+// Função do Algoritmo: Calcular a tabuada do valor inserido
+//Autor : Thiago Fernandes
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+	     escreva("Coloque o numero para saber a tabuada") 
+		inteiro contador,limite,resultado,opcao
+		escreva("\n" + "Sua escolha: ")
+		leia(opcao)
+
+		contador = 0
+		limite = 10
+
+		faca{
+
+                 resultado = opcao * contador
+                 escreva(opcao + " X " + contador + " = " + resultado + "\n")
+                 contador ++
+			
+		}enquanto (contador<=limite)
+	}
+}
